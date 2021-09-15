@@ -1,0 +1,3 @@
+#!/bin/bash
+
+flock /var/lock/recopy.lock recopy.sh
